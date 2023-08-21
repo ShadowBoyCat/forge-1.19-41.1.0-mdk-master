@@ -1,0 +1,18 @@
+{
+  "item.tutorialmod.midnight_emerald": "Midnight Emerald",
+  "item.tutorialmod.midnight_essence": "Midnight Essence",
+  "item.tutorialmod.eight_ball": "Eight Ball",
+  "item.tutorialmod.blueberry": "Blueberry",
+  "item.tutorialmod.blueberry_seeds": "Blueberry Seeds",
+
+  "block.tutorialmod.midnight_block": "Block of Midnight",
+  "block.tutorialmod.midnight_ore": "Midnight Ore",
+  "block.tutorialmod.deepslate_midnight_ore": "Deepslate Midnight Ore",
+  "block.tutorialmod.jumpy_speed_block": "Jumpy Speed Block",
+  "block.tutorialmod.gaze_lantern": "Gaze Lantern",
+  "block.tutorialmod.blueberry_crop": "Blueberry Crop",
+
+
+  "itemGroup.customitems": "Midnight Items",
+  "entity.minecraft.villager.tutorialmod.jumpy_master": "Midnight Master"
+}

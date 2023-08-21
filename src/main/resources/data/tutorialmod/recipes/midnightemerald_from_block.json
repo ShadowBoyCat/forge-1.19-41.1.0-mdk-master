@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:midnight_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:midnight_emerald",
+    "count": 9
+  }
+}

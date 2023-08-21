@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "tutorialmod:block/gaze_lantern_on" },
+    "lit=false": { "model": "tutorialmod:block/gaze_lantern_off" }
+  }
+}
