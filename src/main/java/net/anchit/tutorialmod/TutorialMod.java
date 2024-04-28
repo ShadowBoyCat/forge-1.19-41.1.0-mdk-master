@@ -3,6 +3,7 @@ package net.anchit.tutorialmod;
 import com.mojang.logging.LogUtils;
 import net.anchit.tutorialmod.blocks.ModBlocks;
 import net.anchit.tutorialmod.item.ModItems;
+import net.anchit.tutorialmod.painting.ModPaintings;
 import net.anchit.tutorialmod.villager.ModVillagers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -28,6 +29,7 @@ public class TutorialMod {
         ModBlocks.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
