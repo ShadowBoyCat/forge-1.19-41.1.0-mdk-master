@@ -11,7 +11,8 @@
   "block.tutorialmod.jumpy_speed_block": "Jumpy Speed Block",
   "block.tutorialmod.gaze_lantern": "Gaze Lantern",
   "block.tutorialmod.blueberry_crop": "Blueberry Crop",
-
+  "block.tutorialmod.endstone_midnight_ore": "Endstone Midnight Ore",
+  "block.tutorialmod.netherrack_midnight_ore": "Netherrack Midnight Ore",
 
   "itemGroup.customitems": "Midnight Items",
   "entity.minecraft.villager.tutorialmod.jumpy_master": "Midnight Master"

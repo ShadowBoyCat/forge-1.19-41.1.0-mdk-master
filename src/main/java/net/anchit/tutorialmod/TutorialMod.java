@@ -5,6 +5,8 @@ import net.anchit.tutorialmod.blocks.ModBlocks;
 import net.anchit.tutorialmod.item.ModItems;
 import net.anchit.tutorialmod.painting.ModPaintings;
 import net.anchit.tutorialmod.villager.ModVillagers;
+import net.anchit.tutorialmod.world.feature.ModConfiguredFeatures;
+import net.anchit.tutorialmod.world.feature.ModPlacedFeatures;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,9 @@ public class TutorialMod {
 
         ModVillagers.register(modEventBus);
         ModPaintings.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

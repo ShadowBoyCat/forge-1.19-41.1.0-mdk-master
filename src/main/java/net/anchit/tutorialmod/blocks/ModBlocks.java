@@ -40,6 +40,14 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.CUSTOM_TAB);
+    public static final RegistryObject<Block> NETHERRACK_MIDNIGHT_ORE = registerBlock("netherrack_midnight_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3,7)), ModCreativeModeTab.CUSTOM_TAB);
+    public static final RegistryObject<Block> ENDSTONE_MIDNIGHT_ORE = registerBlock("endstone_midnight_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3,7)), ModCreativeModeTab.CUSTOM_TAB);
 
     public static final RegistryObject<Block> JUMPYSPEED_BLOCK = registerBlock("jumpy_speed_block",
             () -> new JumpSpeedBlock(BlockBehaviour.Properties.of(Material.STONE)
